@@ -1,0 +1,22 @@
+{
+  "name": "one-piece-image-converter",
+  "version": "1.0.0",
+  "description": "Download and convert One Piece card game images from PNG to WebP",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "one-piece",
+    "webp",
+    "image-conversion"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "p-limit": "^3.1.0",
+    "one-piece-card-game-json": "^0.2.9",
+    "sharp": "^0.33.3"
+  }
+}

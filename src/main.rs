@@ -9,6 +9,7 @@ use std::time::Duration;
 use tokio::time::sleep;
 
 // Simple command line parsing without the clap derive macro
+#[derive(Clone)]
 struct Config {
     concurrency_limit: usize,
     regular_delay: u64,
